@@ -7,6 +7,7 @@ public class Task1 {
 		Scanner sc = new Scanner(System.in);
 		while (!sc.hasNextInt()) {
 			String st = sc.nextLine();
+			System.out.println("Not integer, please reenter");
 		}
 		int x = sc.nextInt();
 		int sum = 0;
